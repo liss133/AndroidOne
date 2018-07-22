@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/photo"
+        android:src="@drawable/fdayi"
+        android:layout_marginTop="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016秋装大码条绒上衣韩版宽松灯芯风衣长款"
+        android:textSize="20dp"
+        android:id="@+id/name"
+        android:layout_below="@+id/photo"
+        android:layout_alignRight="@+id/person"
+        android:layout_alignEnd="@+id/person" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥99.99"
+        android:textColor="#ff5000"
+        android:id="@+id/price"
+        android:textSize="20dp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1333人付款"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textColor="#959494"
+        android:id="@+id/person"
+        android:layout_alignBottom="@+id/price"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
