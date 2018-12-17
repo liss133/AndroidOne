@@ -16,6 +16,7 @@ public class Main2Activity extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent = new Intent(Main2Activity.this,MainActivity.class);
                 startActivity(intent);
             }
