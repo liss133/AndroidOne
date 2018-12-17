@@ -23,6 +23,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.caidan);
+
         listView = (ListView) findViewById(R.id.listView);
         List<Map<String,Object>> list = getList();
         Log.i("1",list.get(1).get("photo").toString()+"你好"+list.get(1).get("rating").toString());
